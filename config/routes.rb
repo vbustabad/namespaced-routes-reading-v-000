@@ -8,5 +8,5 @@ Rails.application.routes.draw do
 
   root 'posts#index'
 
-  get '/stats', to: 'stats#index'
+  get '/admin/stats', to: 'stats#index'
 end
